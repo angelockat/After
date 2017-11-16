@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .number{
+            
+            width: 250px;
+            height: 255px;
+            color: #000;
+            margin-right: 60px;
+            margin-top: 20px;
+        font-family: arial;
+        font-size: 1.1em;
+        display:block;
+            float: left;
+            font-family:arial; 
+            font-weight: 100;
+            position: relative;
+            box-sizing: border-box;
+        }
+        
+        .number:after{
+            color:aquamarine;
+            font-size:9em;
+            position: absolute;
+            top:-50px;
+            left:-55px;
+            z-index: -1;
+            font-weight: 900;
+        }
+        .one:after{
+            content: '1';
+            
+        }
+        .two:after{
+            content: '2';
+            
+        }
+        .three:after{
+            content: '3';
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <secion>
+        <div class="cont">
+            <div class="number">
+                <div class="number one"><p>Привозим опытных мехников, инженеров и наладчиков для мотажа и пуско-наладки</p></div>
+                <div class=" number two "><p>Обеспечиваем шеф-монтаж,пуско-наладочную работу,гарантийное,обслуживание и послегарантийный ремонт</p></div>
+                <div class="number three"><p>Осуществляем полное обслуживание товара линии машины в течении всего гарантийного срока</p></div>
+                
+            </div>
+        </div>
+    </secion>
+</body>
+</html>
